@@ -235,6 +235,8 @@ export interface FrameBase extends Global {
   readonly opacity?: number;
   /** Bounding box of the node in absolute space coordinates */
   readonly absoluteBoundingBox: Rect;
+  /**The bounds of the rendered node in the file in absolute space coordinates */
+  readonly absoluteRenderBounds: Rect;
 
   /**
    * Width and height of element. This is different from the width and height
